@@ -20,6 +20,9 @@ import java.util.Optional;
 @Controller
 public class AdminController {
 
+//    email = admin@gmail.com
+//    password = admin
+
     public static String uploadDir = System.getProperty("user.dir") + "/src/main/resources/static/productImages";
 
 
