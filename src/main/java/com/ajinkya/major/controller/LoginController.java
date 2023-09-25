@@ -1,5 +1,6 @@
 package com.ajinkya.major.controller;
 
+import com.ajinkya.major.global.GlobalData;
 import com.ajinkya.major.model.Role;
 import com.ajinkya.major.model.User;
 import com.ajinkya.major.repository.RoleRepository;
@@ -30,6 +31,7 @@ public class LoginController {
 
     @GetMapping("/login")
     public String login(){
+        GlobalData.cart.clear();
         return "login";
     }
 
